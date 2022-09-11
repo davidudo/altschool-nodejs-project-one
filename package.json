@@ -14,10 +14,6 @@
     "jest": "^27.5.1",
     "supertest": "^6.2.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/davidudo/altschool-nodejs-project-one.git"
-  },
   "keywords": [],
   "author": "David Udo",
   "license": "ISC",
