@@ -8,10 +8,11 @@ After learning **Nodejs** in the second week of the second semester in Altschool
 
 - [Overview](#overview)
   - [The project](#the-project)
+  - [About project](#about-project)
+  - [Usage](#usage)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -21,19 +22,76 @@ After learning **Nodejs** in the second week of the second semester in Altschool
 
 ![Question Screenshot](./images/question-screenshot.jpg)
 
+### About project
+
+This is an API created with NodeJS. It can be classified into two main routes, the `users` routes and the `books` route. Each route contains the following methods:
+
+- **Users** route:
+  - createUser ```POST```
+  - authenticateUser ```POST```
+  - getAllUsers ```GET```
+- **Books** route:
+  - createBook ```POST```
+  - deleteBook ```DELETE```
+  - loanOutBooks ```POST```
+  - returnBooks ```POST```
+  - updateBook ```PUT```
+
+Also, I built a basic frontend application that interacts with the API.
+
+## Usage
+
+Clone repository 
+
+```
+git clone https://<insert_your_token>@github.com/davidudo/altschool-nodejs-project-one
+```
+
+Change directory
+
+```
+cd altschool-nodejs-project-one
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Start server
+
+```
+npm run start:dev
+```
+
 ## My process
+
+The design process I used to create this API is very simple. First of all I had to write down the basic files I will need and list the files that will be contained in each folder. While writing the code, there were three main stages in my design process which were: 
+
+- Setup server with a request handler
+- Add routes to request handler and test them
+- Add functionality to each route
 
 ### Built with
 
 - Nodejs
+- HTML
+- CSS
 
 ### What I learned
 
-### Continued development
+- How to setup a simple server with NodeJS
+- Basics of authentication
+- Code documentation
+- How to consume API for frontend development
+- How to build a CRUD app
+- Basics of error handling
+- How to categorise code files
 
 ### Useful resources
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+For the development of the frontend, I found this [resource](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) very useful. It helped me understand how to send requests to the backend using different methods and also how to receive data from it.
 
 ## Author
 
