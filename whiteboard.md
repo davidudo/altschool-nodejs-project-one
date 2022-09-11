@@ -8,7 +8,7 @@ This markdown file contains my design process for this project. All the white bo
 
 ## What do I need?
 
-- An ```index.js``` file.
+- An ```index.js``` file in the root directory.
 - An ```index.html``` and ```main.js``` file in a static folder.
 - Two routes, ```users.js``` and ```books.js```.
 - Two databases ```users.json``` and ```books.json```.

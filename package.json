@@ -1,0 +1,28 @@
+{
+  "name": "altschool-nodejs-project-one",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start:dev": "npx nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/davidudo/altschool-nodejs-project-one.git"
+  },
+  "keywords": [],
+  "author": "David Udo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidudo/altschool-nodejs-project-one/issues"
+  },
+  "homepage": "https://github.com/davidudo/altschool-nodejs-project-one#readme"
+}

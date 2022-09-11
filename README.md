@@ -33,6 +33,8 @@ After learning **Nodejs** in the second week of the second semester in Altschool
 
 ### Useful resources
 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
 ## Author
 
 - Twitter - [@_davidudo](https://www.twitter.com/_davidudo)
