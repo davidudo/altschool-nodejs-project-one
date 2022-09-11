@@ -15,9 +15,5 @@
   },
   "keywords": [],
   "author": "David Udo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davidudo/altschool-nodejs-project-one/issues"
-  },
-  "homepage": "https://github.com/davidudo/altschool-nodejs-project-one#readme"
+  "license": "ISC"
 }
