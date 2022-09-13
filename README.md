@@ -13,6 +13,7 @@ After learning **Nodejs** in the second week of the second semester in Altschool
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -37,7 +38,9 @@ This is an API created with NodeJS. It can be classified into two main routes, t
   - returnBooks ```POST```
   - updateBook ```PUT```
 
-Also, I built a basic frontend demo application that interacts with the API. **NOTE:** While building the frontend demo, I discovered that only `GET` and `POST` methods worked, so the functions that work with `PUT` and `DELETE` methods were not functional
+Also, I built a basic frontend demo application that interacts with the API. 
+
+**NOTE:** While building the frontend demo, I discovered that only `GET` and `POST` methods worked, so the functions that work with `PUT` and `DELETE` methods were not functional
 
 ## Usage
 
@@ -87,6 +90,10 @@ The design process I used to create this API is very simple. First of all I had 
 - How to build a CRUD app
 - Basics of error handling
 - How to categorise code files
+
+### Continued development
+
+In the next project, I will need to learn how to develop an API that can allow all CORS methods. I want to discover why `Access-Control-Allow-Methods` did not work in my request handler. Also in continued development, I will work on creating and effective authentication, book loaning and returning system.
 
 ### Useful resources
 
