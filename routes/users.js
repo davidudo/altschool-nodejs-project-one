@@ -101,7 +101,6 @@ const authenticateUser = function (req, res) {
 
     if (userFound.password !== loginDetails.password) {
       res.writeHead(404);
-      res.end("Invalid password!");
       res.end(JSON.stringify({
           message: "Invalid password!"
         }));

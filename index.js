@@ -25,8 +25,9 @@ const PORT = 8000;
 /* ==== Request Handler ==== */
 /* ======================== */
 const requestHandler = function (req, res) {
-  /* ==== Configure CORS ==== */
+  /* ==== Set Headers === */
   res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, DELETE');
 
   res.setHeader("Content-Type", "application/json");
 
@@ -40,7 +41,7 @@ const requestHandler = function (req, res) {
     getAllUsers(req, res);
   } else if (url === '/users' && method === 'POST') {
     createUser(req, res);
-  } else if (url === '/authenticateUser' && method === 'GET') {
+  } else if (url === '/authenticateUser' && method === 'POST') {
     authenticateUser(req, res);
   } else if (url === '/books/loanout' && method === 'POST') {
     loanOutBooks(req, res);
