@@ -70,7 +70,7 @@ npm run start:dev
 
 ## My process
 
-The design process I used to create this API is very simple. First of all I had to write down the basic files I will need and list the files that will be contained in each folder. While writing the code, there were three main stages in my design process which were: 
+The design process I used to create this API is very simple. First of all I had to write down the basic files and folders I will need and list the files that will be contained in each folder. While writing the code, there were three main stages in my design process which were: 
 
 - Setup server with a request handler
 - Add routes to request handler and test them
