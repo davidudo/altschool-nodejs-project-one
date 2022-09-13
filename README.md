@@ -37,7 +37,7 @@ This is an API created with NodeJS. It can be classified into two main routes, t
   - returnBooks ```POST```
   - updateBook ```PUT```
 
-Also, I built a basic frontend application that interacts with the API.
+Also, I built a basic frontend demo application that interacts with the API. **NOTE:** While building the frontend demo, I discovered that only `GET` and `POST` methods worked, so the functions that work with `PUT` and `DELETE` methods were not functional
 
 ## Usage
 
@@ -77,14 +77,13 @@ The design process I used to create this API is very simple. First of all I had 
 
 - Nodejs
 - HTML
-- CSS
 
 ### What I learned
 
 - How to setup a simple server with NodeJS
 - Basics of authentication
 - Code documentation
-- How to consume API for frontend development
+- How to consume API from frontend
 - How to build a CRUD app
 - Basics of error handling
 - How to categorise code files

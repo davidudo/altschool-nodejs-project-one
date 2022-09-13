@@ -27,8 +27,6 @@ const PORT = 8000;
 const requestHandler = function (req, res) {
   /* ==== Set Headers === */
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, PUT, GET, DELETE');
-
   res.setHeader("Content-Type", "application/json");
 
   const {

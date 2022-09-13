@@ -5,6 +5,10 @@
 * to start the server using (npm run start:dev) in your
 * terminal before you can be able to interact with the
 * API.
+* 
+* NOTE: Some functions are not working because I haven't
+* been able to find a way to set the CORS for headers, 
+* and methods like PUT and DELETE.
 * */
 
 /* =============================== */
@@ -86,12 +90,50 @@ update_book.addEventListener("click", () => {
   });
 });
 
-/* === Delete Book === */
+/* === Delete Book (*Not Functioning) === */
 delete_book.addEventListener("click", () => {
   const id = 6;
 
   fetch('http://localhost:8000/books/6', {
     method: 'DELETE'
+  })
+  .then((response) => response.json()).then((data) => {
+    console.log('Success:', data);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
+});
+
+/* === Loan Books === */
+loan_books.addEventListener("click", () => {
+  // Data to be sent to the database
+  const data = {
+    id: [1, 2, 3]
+  };
+
+  fetch('http://localhost:8000/books/loanout', {
+    method: 'POST',
+    body: JSON.stringify(data),
+  })
+  .then((response) => response.json()).then((data) => {
+    console.log('Success:', data);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
+});
+
+/* === Return Books === */
+return_books.addEventListener("click", () => {
+  // Data to be sent to the database
+  const data = {
+    id: [1, 2, 3]
+  };
+
+  fetch('http://localhost:8000/books/returnbooks', {
+    method: 'POST',
+    body: JSON.stringify(data),
   })
   .then((response) => response.json()).then((data) => {
     console.log('Success:', data);
