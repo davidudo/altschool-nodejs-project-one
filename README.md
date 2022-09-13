@@ -93,7 +93,7 @@ The design process I used to create this API is very simple. First of all I had 
 
 ### Continued development
 
-In the next project, I will need to learn how to develop an API that can allow all CORS methods. I want to discover why `Access-Control-Allow-Methods` did not work in my request handler. Also in continued development, I will work on creating and effective authentication, book loaning and returning system.
+In the next project, I will need to learn how to develop an API that can allow all methods from frontend applications. I want to discover why `Access-Control-Allow-Methods` did not work in my request handler when I sent a request from the frontend. Also in continued development, I will work on creating and effective authentication, book loaning and returning system.
 
 ### Useful resources
 
