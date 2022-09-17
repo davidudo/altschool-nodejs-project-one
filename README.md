@@ -69,17 +69,17 @@ npm run start:dev
 ```
 ### Testing endpoints
 
-| Endpoints          | Method | Description                 | Send Data   |
-| ------------------ | ------ | --------------------------- | ----------- |
-| /books             | GET    | Gets all books              | -           |
-| /books             | POST   | Adds a book to database     | body <json> |
-| /books             | PUT    | Updates a book in database  | body <json> |
-| /books/:id         | DELETE | Deletes a book from db      | path params |
-| /books/loanout     | POST   | Loans multiple books        | body <json> |
-| /books/returnbooks | DELETE | Adds book to database       | path params |
-| /users             | GET    | Gets all users fron db      | -           |
-| /users             | POST   | Create new user             | body <json> |
-| /authenticateUser  | POST   | Authenticates user          | body <json> |
+| ENDPOINT           |METHODS | DESCRIPTION                 | SEND DATA      |
+| ------------------ | ------ | --------------------------- | -------------- |
+| /books             | GET    | Gets all books              | -              |
+| /books             | POST   | Adds a book to database     | body `<json>`` |
+| /books             | PUT    | Updates a book in database  | body `<json>`` |
+| /books/:id         | DELETE | Deletes a book from db      | path params    |
+| /books/loanout     | POST   | Loans multiple books        | body `<json>`` |
+| /books/returnbooks | DELETE | Adds book to database       | path params    |
+| /users             | GET    | Gets all users fron db      | -              |
+| /users             | POST   | Create new user             | body` <json>`` |
+| /authenticateUser  | POST   | Authenticates user          | body `<json>`` |
 
 ## My process
 
